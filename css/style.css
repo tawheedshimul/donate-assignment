@@ -1,0 +1,120 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    text-align: center;
+    background-image: url(../images/donation9.jpg);
+    height:50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35px;
+    color:white;
+
+}
+
+.btn{
+    color:white;
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 10px;
+    border:0px;
+    cursor:pointer;
+}
+
+/* 2nd section  */
+.container{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.container-b{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 20px 60px 20px 60px;
+    
+
+}
+.container-b div{
+    background-color:gainsboro;
+    padding: 20px;
+    margin: auto;
+    
+}
+
+.container-b div:hover{
+    background-color: darksalmon;
+    border-style: solid;
+    border-color: red;
+    padding: 17px;
+
+}
+
+/* 3rd section  */
+.container-e{
+    margin-top: 50px;
+    display:flex;
+    text-align: left;
+    justify-content:space-between;
+}
+.container-e div{
+    padding: 20px;
+    margin: 5px;
+}
+
+/* 3rd section id section  */
+#a{background-color:rgb(202, 231, 229);
+
+}
+#b{
+    background-color:rgb(238, 206, 206);
+}
+#c{
+    background-color:rgb(230, 177, 98);
+}
+
+/* 4th section  */
+.container-f{
+    text-align: left;
+}
+.container-g img{
+    width: 300px;
+    height: 300px;
+}
+/* 5th section and 4th section almost same  */
+
+/* 6th section  */
+
+.container-h{
+    background-color: antiquewhite;
+    padding: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+
+/* its collected from https://www.w3schools.com/css/tryit.asp?filename=trycss_form_focus2 ((((((search korsilam google e) */
+input[type=email] {
+    width: 60%%;
+  padding: 7.5px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  outline: none;
+  }
+
+  /* footer section  */
+  footer{
+    background-color: black;
+  }
+
+  .footer-a{
+    color:red;
+    font-family:'Courier New', Courier, monospace
+  }
+  .footer-b{
+    color:white;
+  }
