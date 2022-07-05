@@ -27,6 +27,8 @@ body{
 .container{
     text-align: center;
     padding-top: 30px;
+    width:80%;
+    margin:auto;
 }
 
 .container-b{
@@ -57,7 +59,9 @@ body{
     margin-top: 50px;
     display:flex;
     text-align: left;
-    justify-content:space-between;
+    justify-content:center;
+    width:95%;
+    
 }
 .container-e div{
     padding: 20px;
@@ -78,10 +82,12 @@ body{
 /* 4th section  */
 .container-f{
     text-align: left;
+    width: fit-content;
 }
 .container-g img{
     width: 300px;
-    height: 300px;
+    height: 250pxpx;
+    
 }
 /* 5th section and 4th section almost same  */
 
