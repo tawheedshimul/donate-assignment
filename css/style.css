@@ -5,14 +5,23 @@ body{
 
 .banner{
     text-align: center;
-    background-image: url(../images/donation9.jpg);
+    background-image:linear-gradient(to top,black, rgba(0, 0, 0, 0)),  url(../images/donation9.jpg);
     height:50vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 35px;
     color:white;
+}
 
+.banner h1{
+    width:40%;
+    margin:0 auto;
+    }
+
+.banner p{
+    width: 50%;
+    margin:0 auto;
 }
 
 .btn{
@@ -55,8 +64,7 @@ body{
 }
 
 .container-c{
-    width:40%;
-    text-align: center;
+   text-align: center;
     margin: 0 auto;
 }
 
@@ -121,11 +129,12 @@ input[type=email] {
   }
 
   input[type=text] {
-  padding: 7.5px 20px;
-  margin:0 auto;
-  box-sizing:border-box;
-  border: 3px solid #ccc;
-  outline: none;
+  border:none;
+  outline:none;
+  border-bottom: 1px solid black;
+  width:60%;
+  text-align: center;
+  padding-bottom: 5px;
   }
 
 
