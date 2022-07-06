@@ -53,6 +53,12 @@ body{
     padding: 17px;
 }
 
+.container-c{
+    width:40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 /* 3rd section  */
 .container-e{
     padding-top: 50px;
@@ -105,13 +111,24 @@ body{
 
 /* its collected from https://www.w3schools.com/css/tryit.asp?filename=trycss_form_focus2 ((((((search korsilam google e) */
 input[type=email] {
-    width: 60%%;
+    width: 60%;
   padding: 7.5px 20px;
   margin:0 auto;
   box-sizing: border-box;
   border: 3px solid #ccc;
   outline: none;
   }
+
+  input[type=text] {
+  padding: 7.5px 20px;
+  margin:0 auto;
+  box-sizing:border-box;
+  border: 3px solid #ccc;
+  outline: none;
+  }
+
+
+  
 
   /* footer section  */
   footer{
