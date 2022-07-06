@@ -59,8 +59,9 @@ body{
 .container-b div:hover{
     background-color: darksalmon;
     border-style: solid;
-    border-color: red;
-    padding: 17px;
+    border: 1px solid red;
+    padding: 19px;
+    cursor: pointer;
 }
 
 .container-c{
