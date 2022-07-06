@@ -56,6 +56,14 @@ body{
     
 }
 
+#cd{
+    background-color: darksalmon;
+    border-style: solid;
+    border: 1px solid red;
+    padding: 19px;
+    cursor: pointer;
+}
+
 .container-b div:hover{
     background-color: darksalmon;
     border-style: solid;
@@ -75,14 +83,15 @@ body{
     display:flex;
     text-align: left;
     justify-content:center;
-    width:80%;
+    width:90%;
     margin:0 auto;
     
     
 }
 .container-e div{
-    padding: 20px;
-    margin: 5px;
+    margin: 10px;
+    padding: 5px;
+
 }
 
 /* 3rd section id section  */
@@ -102,8 +111,9 @@ body{
     width: fit-content;
 }
 .container-g img{
-    width: 300px;
-    height: 250pxpx;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
     
 }
 /* 5th section and 4th section almost same  */
@@ -148,7 +158,8 @@ input[type=email] {
 
   .footer-a{
     color:red;
-    font-family:'Courier New', Courier, monospace
+    font-family: 'Righteous', cursive;
+    
   }
   .footer-b{
     color:white;
